@@ -159,8 +159,7 @@ header {
 
 .nav__menu-list.open {
   right: 0;
-  display: flex;
-  flex-direction: column;
+
 }
 
 .nav_menu-bar {
@@ -193,8 +192,6 @@ header {
   .nav_menu-bar {
     display: none;
   }
-
-  
 
   .homenav {
     background: white;
@@ -262,18 +259,17 @@ header {
       }
     }
   }
- 
 
 }
 
 .nav__menu-list {
+  position: unset;
   min-height: fit-content;
   width: fit-content;
   flex-direction: row;
   align-items: center;
   column-gap: 24px;
 }
-
 
 
 .icons {
